@@ -1,0 +1,7 @@
+version: '2'
+services:
+  merlin:
+    image: cuckoohello/merlin-ng
+    volumes:
+      - ./am-toolchains/brcm-arm-hnd:/opt/toolchains
+      - ./asuswrt-merlin.ng/:/home/cuckoo/asuswrt-merlin.ng/
